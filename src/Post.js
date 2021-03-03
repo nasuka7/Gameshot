@@ -18,23 +18,23 @@ const Post = ({
   return (
     <div className="post">
       <div className="post_avatar">
-        <Avatar src="" />
+        <Avatar src={avatar} />
       </div>
       <div className="post_body">
         <div className="post_header">
           <div className="post_headerText">
             <h3>
-              Rafeh Qazi{""} 
+              {displayName}{""} 
               <span className="post_headerSpecial">
-                <VerifiedUserIcon className="post_badge" />  @unko
+                {verified && <VerifiedUserIcon className="post_badge" />} @{userName}
               </span>
             </h3>
           </div>
           <div className="post_headerDescription">
-            <p>ooooooo</p>
+            <p>{text}</p>
           </div>
         </div>
-        <img src="https://toretama.jp/img/mouseover-zoomup-image.jpg" alt=""/>
+        <img src={image}/>
         <div className="post_footer">
           <ChatBubbleOutlineIcon fontSize="small" />
           <RepeatIcon fontSize="small" />
