@@ -1,0 +1,27 @@
+.sidebar {
+  border-right: 1px solid var(--backgroundcolor);
+  flex: 0.3;
+  /* min-width: 250px; */
+  /* margin-top: 20px; */
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.sidebar_SportsEsportsIcon {
+  margin-top: 20px;
+  color: var(--color);
+  font-size: 30px !important;
+  padding-left: 20px !important;
+  padding-bottom: 20px !important;
+}
+
+.sidebar_post {
+  background-color: var(--color) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  text-transform: 100px !important;
+  border-radius: 30px !important;
+  height: 50px !important;
+  margin-top: 20px !important;
+}
