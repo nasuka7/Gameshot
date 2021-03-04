@@ -22,8 +22,9 @@ const Feed = () => {
 
       <Box />
 
-      {posts.map(post => (
+      {posts.map((post) => (
         <Post 
+          key={post.text}
           displayName={post.displayName}
           username={post.username}
           verified={post.verified}
